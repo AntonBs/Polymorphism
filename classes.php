@@ -49,7 +49,7 @@ class PhotoReportPublication extends Publications
 {
     public function printItem(){
         echo '<br> Фотоотчет: '. $this->title;
-        echo '<br> <img src="http://localhost/polimorf/' . $this->preview.'">';
+        echo '<br> <img src="http://localhost/polimorf/' . $this->preview.'" alt="">';
         echo '<hr>';
     }
 }
